@@ -15,7 +15,7 @@ STOPWORDS = [
 def fit(df, text_col="comment", n_topics=5, top_words=8, seed=42):
     vectorizer = CountVectorizer(
         max_df=0.9,
-        min_df=5,
+        min_df=5 if len(df) >= 50 else 1,
         stop_words=STOPWORDS,
         ngram_range=(1, 2),
     )

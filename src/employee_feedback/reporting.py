@@ -1,17 +1,16 @@
 """Stakeholder reporting: Excel workbook and PowerPoint deck."""
 
+import os
+
 import matplotlib
 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import pandas as pd
 
-EXCEL_PATH = "outputs/feedback_insights.xlsx"
-PPTX_PATH = "outputs/feedback_insights.pptx"
-CHART_DIR = "outputs"
 
-
-def _charts(sentiment_summary, topic_summary, segment_profile):
+def _charts(sentiment_summary, topic_summary, segment_profile, out_dir):
+    os.makedirs(out_dir, exist_ok=True)
     paths = {}
 
     ax = sentiment_summary.plot(
@@ -21,7 +20,7 @@ def _charts(sentiment_summary, topic_summary, segment_profile):
     ax.set_ylabel("share of comments")
     fig = ax.get_figure()
     fig.tight_layout()
-    p = f"{CHART_DIR}/sentiment_by_department.png"
+    p = os.path.join(out_dir, "sentiment_by_department.png")
     fig.savefig(p, dpi=150)
     paths["sentiment"] = p
     plt.close(fig)
@@ -31,7 +30,7 @@ def _charts(sentiment_summary, topic_summary, segment_profile):
     ax.set_title("Comments per LDA Topic")
     ax.set_xlabel("comments")
     fig.tight_layout()
-    p = f"{CHART_DIR}/topics.png"
+    p = os.path.join(out_dir, "topics.png")
     fig.savefig(p, dpi=150)
     paths["topics"] = p
     plt.close(fig)
@@ -43,7 +42,7 @@ def _charts(sentiment_summary, topic_summary, segment_profile):
     ax.set_ylabel("average score")
     fig = ax.get_figure()
     fig.tight_layout()
-    p = f"{CHART_DIR}/segments.png"
+    p = os.path.join(out_dir, "segments.png")
     fig.savefig(p, dpi=150)
     paths["segments"] = p
     plt.close(fig)
@@ -51,7 +50,9 @@ def _charts(sentiment_summary, topic_summary, segment_profile):
     return paths
 
 
-def export_excel(df, sentiment_summary, topic_summary, segment_profile):
+def export_excel(df, sentiment_summary, topic_summary, segment_profile, out_dir="outputs"):
+    os.makedirs(out_dir, exist_ok=True)
+    path = os.path.join(out_dir, "feedback_insights.xlsx")
     overall = pd.DataFrame(
         [
             {
@@ -62,20 +63,22 @@ def export_excel(df, sentiment_summary, topic_summary, segment_profile):
             }
         ]
     )
-    with pd.ExcelWriter(EXCEL_PATH, engine="openpyxl") as writer:
+    with pd.ExcelWriter(path, engine="openpyxl") as writer:
         overall.to_excel(writer, sheet_name="Overall", index=False)
         sentiment_summary.to_excel(writer, sheet_name="Sentiment by Dept", index=False)
         topic_summary.to_excel(writer, sheet_name="Topics", index=False)
         segment_profile.to_excel(writer, sheet_name="Segments", index=False)
-    return EXCEL_PATH
+    return path
 
 
-def export_pptx(sentiment_summary, topic_summary, segment_profile, kmeans_meta):
+def export_pptx(sentiment_summary, topic_summary, segment_profile, kmeans_meta, out_dir="outputs"):
     from pptx import Presentation
     from pptx.util import Inches
 
+    os.makedirs(out_dir, exist_ok=True)
+    path = os.path.join(out_dir, "feedback_insights.pptx")
     prs = Presentation()
-    charts = _charts(sentiment_summary, topic_summary, segment_profile)
+    charts = _charts(sentiment_summary, topic_summary, segment_profile, out_dir)
 
     slide = prs.slides.add_slide(prs.slide_layouts[0])
     slide.shapes.title.text = "Employee Feedback Analytics"
@@ -105,5 +108,5 @@ def export_pptx(sentiment_summary, topic_summary, segment_profile, kmeans_meta):
         p = bullets.paragraphs[0] if i == 0 else bullets.add_paragraph()
         p.text = line
 
-    prs.save(PPTX_PATH)
-    return PPTX_PATH
+    prs.save(path)
+    return path

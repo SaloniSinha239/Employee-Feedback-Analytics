@@ -21,6 +21,26 @@ non-technical stakeholders.
    auto-generated PowerPoint deck with charts (`outputs/feedback_insights.pptx`)
    (`src/employee_feedback/reporting.py`).
 
+## Interactive app (Streamlit)
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+Upload your own survey CSV (required columns: `department`, `tenure_years`,
+`engagement_score`, `workload_score`, `salary_satisfaction`, `comment`) or use the
+synthetic sample, then explore sentiment, topics, and segments in the browser and
+download the Excel/PowerPoint deliverables.
+
+### Free deployment
+
+- **Streamlit Community Cloud**: push this repo to GitHub, then at
+  [share.streamlit.io](https://share.streamlit.io) deploy `app.py` — main file `app.py`,
+  requirements auto-detected from `requirements.txt`.
+- **Hugging Face Spaces**: create a Space with SDK `Streamlit`, point it at the same repo
+  (add `app.py` + `requirements.txt`).
+
 ## Usage
 
 ```bash
