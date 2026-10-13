@@ -1,0 +1,501 @@
+employee_id,department,tenure_years,engagement_score,workload_score,salary_satisfaction,comment,true_topic
+1,Engineering,3.9,4.7,9.0,4.2,no support for flexible schedules here,work_life_balance
+2,Operations,1.0,9.5,7.0,3.0,the survey asks about my experience this quarter,management
+3,Operations,1.2,5.5,3.4,7.7,work follows me home every weekend,work_life_balance
+4,HR,13.4,8.4,7.3,6.8,blame culture makes people afraid to speak up,culture
+5,HR,1.4,6.6,4.5,4.6,regular one on ones with my manager are helpful,management
+6,Finance,5.4,5.8,4.8,2.6,constant overtime is burning the team out,work_life_balance
+7,Engineering,1.7,3.2,6.6,4.3,no support for flexible schedules here,work_life_balance
+8,Operations,7.2,6.2,5.0,5.7,please share results with the team,career_growth
+9,Sales,3.1,3.7,7.8,8.1,pay does not match the cost of living increase,compensation
+10,Engineering,1.1,8.2,4.5,3.7,career growth discussions never happen,career_growth
+11,HR,3.4,9.2,4.8,5.6,great atmosphere and friendly coworkers,culture
+12,Finance,2.6,5.1,4.7,7.2,I completed the annual engagement survey today,culture
+13,Operations,8.4,7.0,4.9,1.0,my manager gives clear direction and useful feedback,management
+14,Operations,5.4,5.2,8.2,7.9,work follows me home every weekend,work_life_balance
+15,Operations,4.2,5.4,7.3,3.4,please share results with the team,culture
+16,Operations,5.3,7.9,9.4,6.5,regular one on ones with my manager are helpful,management
+17,HR,20.0,6.4,10.0,6.3,leadership communicates goals well and trusts the team,management
+18,Engineering,11.6,9.6,3.9,8.0,flexible hours let me manage family commitments,work_life_balance
+19,Finance,2.2,5.6,6.1,6.9,training budget and promotion paths are clear,career_growth
+20,HR,5.1,8.3,3.6,1.0,leadership communicates goals well and trusts the team,management
+21,HR,9.3,6.7,4.4,4.2,there is no path for promotion in this role,career_growth
+22,Sales,5.9,7.9,4.7,6.1,unclear expectations from leadership cause rework,management
+23,Engineering,7.9,5.7,3.9,5.4,flexible hours let me manage family commitments,work_life_balance
+24,Finance,1.5,6.4,3.9,6.8,please share results with the team,career_growth
+25,Operations,5.1,6.3,5.7,7.4,leadership communicates goals well and trusts the team,management
+26,Operations,3.3,5.0,3.6,7.0,flexible hours let me manage family commitments,work_life_balance
+27,HR,3.4,7.7,7.7,5.4,regular one on ones with my manager are helpful,management
+28,Finance,10.9,7.7,4.2,2.1,the team culture is inclusive and supportive,culture
+29,HR,3.4,7.6,10.0,4.9,benefits have been cut and bonuses delayed,compensation
+30,HR,5.2,9.3,5.1,6.6,I see real opportunities to grow my career here,career_growth
+31,HR,0.7,9.1,6.1,3.6,flexible hours let me manage family commitments,work_life_balance
+32,Sales,12.6,5.8,3.4,7.1,the survey asks about my experience this quarter,culture
+33,Engineering,7.6,7.2,9.4,7.6,I see real opportunities to grow my career here,career_growth
+34,HR,4.0,5.4,8.2,6.1,my manager gives clear direction and useful feedback,management
+35,Finance,3.2,6.5,6.6,1.0,teams work in silos and rarely share knowledge,culture
+36,Engineering,6.3,5.4,3.3,3.2,constant overtime is burning the team out,work_life_balance
+37,Finance,9.2,9.4,6.4,9.6,the survey asks about my experience this quarter,culture
+38,Finance,12.7,7.2,3.8,4.7,salary and benefits package meet my expectations,compensation
+39,Sales,7.5,6.1,8.9,1.8,constant overtime is burning the team out,work_life_balance
+40,Operations,4.4,8.6,7.6,8.3,the pay raise this year was fair and competitive,compensation
+41,Engineering,8.2,2.6,6.2,5.8,management never listens to team concerns,management
+42,Operations,7.2,2.9,1.1,8.0,management never listens to team concerns,management
+43,Operations,4.4,7.9,4.0,6.4,work follows me home every weekend,work_life_balance
+44,Sales,7.1,6.6,7.4,6.7,there is no path for promotion in this role,career_growth
+45,Engineering,7.0,7.0,8.4,6.5,great atmosphere and friendly coworkers,culture
+46,Finance,4.0,4.1,8.2,7.2,I see real opportunities to grow my career here,career_growth
+47,HR,2.7,6.5,2.8,10.0,training budget and promotion paths are clear,career_growth
+48,Finance,6.6,10.0,6.6,7.7,flexible hours let me manage family commitments,work_life_balance
+49,Operations,1.7,8.0,8.0,2.6,please share results with the team,work_life_balance
+50,Operations,1.3,6.8,2.7,6.7,work follows me home every weekend,work_life_balance
+51,Operations,5.3,5.7,6.0,8.1,work follows me home every weekend,work_life_balance
+52,Engineering,6.5,5.8,6.5,8.2,I see real opportunities to grow my career here,career_growth
+53,Sales,5.2,2.7,5.4,4.9,flexible hours let me manage family commitments,work_life_balance
+54,HR,5.7,7.0,2.3,8.1,leadership communicates goals well and trusts the team,management
+55,HR,6.4,8.0,5.3,7.7,colleagues collaborate and celebrate wins together,culture
+56,Engineering,11.0,3.7,5.3,10.0,pay does not match the cost of living increase,compensation
+57,HR,7.5,5.3,5.7,4.3,management never listens to team concerns,management
+58,Engineering,7.4,4.4,4.9,4.8,my manager micromanages every task,management
+59,Operations,5.0,4.8,5.1,5.2,regular one on ones with my manager are helpful,management
+60,Operations,5.1,6.6,5.9,4.8,constant overtime is burning the team out,work_life_balance
+61,Finance,3.7,2.7,6.9,4.0,pay does not match the cost of living increase,compensation
+62,Operations,5.5,7.6,5.4,1.0,salary and benefits package meet my expectations,compensation
+63,Sales,1.6,7.9,5.2,4.9,the remote work policy supports a healthy balance,work_life_balance
+64,Finance,11.0,6.0,6.2,6.5,regular one on ones with my manager are helpful,management
+65,HR,2.0,2.0,2.2,4.8,the survey asks about my experience this quarter,work_life_balance
+66,Sales,7.5,4.7,7.0,9.7,mentorship program helped me develop new skills,career_growth
+67,Finance,10.1,8.7,6.0,5.8,please share results with the team,career_growth
+68,Sales,7.5,1.5,6.1,8.4,there is no path for promotion in this role,career_growth
+69,Engineering,17.1,5.9,7.9,6.3,training budget and promotion paths are clear,career_growth
+70,HR,0.5,4.4,2.1,7.5,colleagues collaborate and celebrate wins together,culture
+71,Operations,2.9,7.9,2.1,6.4,colleagues collaborate and celebrate wins together,culture
+72,Engineering,10.0,5.3,6.5,8.5,requests for training are always rejected,career_growth
+73,HR,1.3,7.2,6.0,5.9,workload is reasonable and overtime is rare,work_life_balance
+74,Engineering,2.1,7.5,6.3,6.8,career growth discussions never happen,career_growth
+75,Operations,6.1,9.8,5.1,6.5,pay does not match the cost of living increase,compensation
+76,HR,4.3,6.1,7.3,5.2,workload is reasonable and overtime is rare,work_life_balance
+77,Sales,5.8,7.2,7.9,6.6,benefits have been cut and bonuses delayed,compensation
+78,Sales,4.6,3.8,7.0,10.0,constant overtime is burning the team out,work_life_balance
+79,HR,5.0,8.6,5.5,5.3,mentorship program helped me develop new skills,career_growth
+80,Operations,2.3,5.1,1.8,6.6,career growth discussions never happen,career_growth
+81,Finance,4.8,5.5,7.5,8.3,requests for training are always rejected,career_growth
+82,HR,3.0,6.5,8.4,8.1,teams work in silos and rarely share knowledge,culture
+83,Engineering,3.4,3.7,7.3,5.8,the survey asks about my experience this quarter,culture
+84,Finance,7.5,6.9,4.2,1.0,colleagues collaborate and celebrate wins together,culture
+85,Operations,1.2,8.2,7.3,6.8,benefits have been cut and bonuses delayed,compensation
+86,Operations,0.3,7.0,7.7,1.4,regular one on ones with my manager are helpful,management
+87,Engineering,7.1,3.6,9.1,8.7,I completed the annual engagement survey today,work_life_balance
+88,Sales,4.8,6.3,4.2,6.1,mentorship program helped me develop new skills,career_growth
+89,Operations,10.1,7.8,5.5,7.8,mentorship program helped me develop new skills,career_growth
+90,Finance,2.1,3.1,7.5,4.0,blame culture makes people afraid to speak up,culture
+91,HR,3.9,4.6,6.1,2.7,requests for training are always rejected,career_growth
+92,Finance,4.5,8.1,3.8,6.3,there is no path for promotion in this role,career_growth
+93,Finance,2.5,7.0,6.8,5.7,teams work in silos and rarely share knowledge,culture
+94,Sales,1.9,7.2,7.2,4.8,leadership communicates goals well and trusts the team,management
+95,Finance,7.3,9.8,6.2,6.0,great atmosphere and friendly coworkers,culture
+96,Sales,1.1,7.3,6.4,10.0,the team culture is inclusive and supportive,culture
+97,Sales,1.6,7.7,5.5,7.5,salary and benefits package meet my expectations,compensation
+98,Operations,3.8,10.0,9.0,7.9,the pay raise this year was fair and competitive,compensation
+99,Operations,7.9,6.1,4.2,7.5,training budget and promotion paths are clear,career_growth
+100,Engineering,2.7,5.1,4.8,8.8,requests for training are always rejected,career_growth
+101,Finance,2.4,7.3,6.0,5.4,my manager micromanages every task,management
+102,Engineering,3.6,7.3,7.8,1.7,regular one on ones with my manager are helpful,management
+103,Finance,5.4,5.6,3.0,5.4,constant overtime is burning the team out,work_life_balance
+104,Engineering,3.2,4.6,3.4,7.4,career growth discussions never happen,career_growth
+105,Operations,8.6,10.0,1.9,3.9,regular one on ones with my manager are helpful,management
+106,Operations,8.9,7.1,6.1,5.4,work follows me home every weekend,work_life_balance
+107,Operations,3.8,5.2,3.8,4.4,great atmosphere and friendly coworkers,culture
+108,Operations,14.2,8.1,5.2,8.8,the survey asks about my experience this quarter,management
+109,HR,4.4,6.3,7.3,7.3,constant overtime is burning the team out,work_life_balance
+110,Operations,8.7,6.0,4.7,7.1,regular one on ones with my manager are helpful,management
+111,Sales,5.3,7.5,6.5,7.0,benefits have been cut and bonuses delayed,compensation
+112,Operations,5.3,4.2,5.4,5.7,constant overtime is burning the team out,work_life_balance
+113,HR,0.9,7.1,7.3,6.2,great atmosphere and friendly coworkers,culture
+114,HR,1.5,9.9,7.0,3.4,I see real opportunities to grow my career here,career_growth
+115,HR,3.3,7.3,4.6,1.4,management never listens to team concerns,management
+116,HR,8.9,5.8,5.7,6.1,my manager gives clear direction and useful feedback,management
+117,Engineering,5.4,5.6,8.1,6.4,compensation is transparent and rewards performance,compensation
+118,Engineering,3.3,5.8,6.8,8.2,blame culture makes people afraid to speak up,culture
+119,Sales,6.5,6.0,3.2,8.9,please share results with the team,work_life_balance
+120,Engineering,8.6,5.8,7.3,8.9,regular one on ones with my manager are helpful,management
+121,HR,4.2,8.1,3.8,3.8,the remote work policy supports a healthy balance,work_life_balance
+122,Operations,4.9,3.4,8.8,5.1,my manager micromanages every task,management
+123,Operations,4.5,8.1,8.0,6.8,leadership communicates goals well and trusts the team,management
+124,HR,4.0,5.8,6.6,10.0,training budget and promotion paths are clear,career_growth
+125,Finance,2.1,7.2,6.3,8.8,flexible hours let me manage family commitments,work_life_balance
+126,HR,2.0,4.5,5.6,8.0,compensation is transparent and rewards performance,compensation
+127,Engineering,6.5,8.9,7.4,5.0,the team culture is inclusive and supportive,culture
+128,Operations,8.7,8.7,5.3,4.0,the salary is too low for the workload,compensation
+129,HR,3.3,8.2,6.5,7.4,flexible hours let me manage family commitments,work_life_balance
+130,Operations,3.2,3.8,7.7,3.6,teams work in silos and rarely share knowledge,culture
+131,HR,0.6,8.0,4.9,5.3,compensation is transparent and rewards performance,compensation
+132,HR,0.5,7.2,4.8,5.6,salary and benefits package meet my expectations,compensation
+133,Engineering,10.3,3.6,3.6,9.0,training budget and promotion paths are clear,career_growth
+134,HR,2.2,6.5,3.9,5.1,benefits have been cut and bonuses delayed,compensation
+135,Operations,17.9,7.2,2.3,1.0,workload is reasonable and overtime is rare,work_life_balance
+136,Sales,2.6,7.5,7.5,6.8,workload is reasonable and overtime is rare,work_life_balance
+137,Operations,0.9,6.8,9.6,4.4,pay does not match the cost of living increase,compensation
+138,Engineering,4.5,7.0,8.9,5.9,salary and benefits package meet my expectations,compensation
+139,Sales,7.3,9.2,2.7,5.6,training budget and promotion paths are clear,career_growth
+140,HR,6.7,8.7,7.4,5.3,my manager gives clear direction and useful feedback,management
+141,Finance,7.8,1.3,8.8,7.4,I completed the annual engagement survey today,management
+142,Sales,1.8,5.9,5.1,2.7,constant overtime is burning the team out,work_life_balance
+143,Sales,10.1,6.2,6.2,4.8,the remote work policy supports a healthy balance,work_life_balance
+144,HR,10.5,3.3,2.0,7.2,mentorship program helped me develop new skills,career_growth
+145,Finance,10.8,6.7,6.5,4.6,compensation is transparent and rewards performance,compensation
+146,Finance,5.1,8.7,3.9,2.6,regular one on ones with my manager are helpful,management
+147,Engineering,3.1,4.5,6.4,7.1,blame culture makes people afraid to speak up,culture
+148,Sales,2.9,7.1,2.9,8.0,please share results with the team,management
+149,Finance,0.9,4.9,7.1,5.7,the pay raise this year was fair and competitive,compensation
+150,Engineering,2.7,5.3,8.0,1.9,my manager gives clear direction and useful feedback,management
+151,Finance,0.2,9.2,4.4,7.2,mentorship program helped me develop new skills,career_growth
+152,Sales,0.7,5.5,3.7,2.5,pay does not match the cost of living increase,compensation
+153,Finance,5.0,7.3,1.7,6.4,please share results with the team,career_growth
+154,Sales,3.4,3.1,5.5,4.0,pay does not match the cost of living increase,compensation
+155,HR,4.9,9.9,4.8,3.5,training budget and promotion paths are clear,career_growth
+156,Operations,6.9,7.6,2.9,4.9,the remote work policy supports a healthy balance,work_life_balance
+157,Engineering,5.5,6.2,6.9,5.4,no support for flexible schedules here,work_life_balance
+158,HR,5.2,7.5,5.1,4.5,career growth discussions never happen,career_growth
+159,HR,3.9,4.0,3.8,7.0,blame culture makes people afraid to speak up,culture
+160,Operations,2.2,8.6,4.9,4.9,colleagues collaborate and celebrate wins together,culture
+161,Finance,1.3,5.9,8.1,7.8,requests for training are always rejected,career_growth
+162,Operations,2.7,6.1,7.2,6.4,training budget and promotion paths are clear,career_growth
+163,HR,3.9,5.6,5.7,4.4,my manager gives clear direction and useful feedback,management
+164,HR,4.3,5.5,7.2,4.1,career growth discussions never happen,career_growth
+165,HR,7.8,7.8,3.7,2.5,my manager micromanages every task,management
+166,Finance,3.7,7.0,6.1,6.4,training budget and promotion paths are clear,career_growth
+167,Sales,6.2,7.7,6.3,5.1,workload is reasonable and overtime is rare,work_life_balance
+168,Engineering,1.0,6.5,5.1,1.1,flexible hours let me manage family commitments,work_life_balance
+169,Sales,5.1,7.4,6.9,4.7,benefits have been cut and bonuses delayed,compensation
+170,Engineering,4.8,5.7,4.4,4.0,flexible hours let me manage family commitments,work_life_balance
+171,Engineering,10.1,10.0,7.0,9.0,the pay raise this year was fair and competitive,compensation
+172,Engineering,3.4,3.7,7.1,2.4,the remote work policy supports a healthy balance,work_life_balance
+173,Operations,3.3,8.8,1.0,2.9,compensation is transparent and rewards performance,compensation
+174,Operations,6.9,9.0,8.4,8.0,management never listens to team concerns,management
+175,Operations,1.4,5.0,1.0,8.5,please share results with the team,compensation
+176,HR,5.0,10.0,4.8,4.3,the survey asks about my experience this quarter,culture
+177,Operations,1.3,8.3,8.1,4.5,constant overtime is burning the team out,work_life_balance
+178,Engineering,13.2,8.2,5.4,7.0,colleagues collaborate and celebrate wins together,culture
+179,Finance,2.9,6.6,3.1,1.1,flexible hours let me manage family commitments,work_life_balance
+180,HR,1.2,6.1,3.8,2.1,pay does not match the cost of living increase,compensation
+181,Finance,2.7,6.1,8.1,5.2,compensation is transparent and rewards performance,compensation
+182,Engineering,5.0,7.2,2.2,8.9,pay does not match the cost of living increase,compensation
+183,HR,6.1,9.0,8.3,4.9,the salary is too low for the workload,compensation
+184,Operations,9.8,6.8,5.9,6.0,the team culture is inclusive and supportive,culture
+185,HR,2.4,4.9,3.6,8.1,mentorship program helped me develop new skills,career_growth
+186,HR,7.1,8.0,4.8,10.0,workload is reasonable and overtime is rare,work_life_balance
+187,Engineering,0.8,8.2,4.0,4.6,my manager gives clear direction and useful feedback,management
+188,Sales,1.6,7.7,7.7,5.8,requests for training are always rejected,career_growth
+189,Sales,1.1,7.8,7.5,9.4,salary and benefits package meet my expectations,compensation
+190,Sales,2.1,6.0,2.6,2.8,training budget and promotion paths are clear,career_growth
+191,Operations,6.9,4.8,5.2,7.9,blame culture makes people afraid to speak up,culture
+192,Operations,2.5,4.9,4.3,3.8,colleagues collaborate and celebrate wins together,culture
+193,Operations,2.9,3.6,8.6,6.0,pay does not match the cost of living increase,compensation
+194,Sales,5.1,6.9,3.3,5.3,constant overtime is burning the team out,work_life_balance
+195,Finance,5.9,6.3,9.2,3.9,the survey asks about my experience this quarter,career_growth
+196,Engineering,3.0,5.7,5.9,3.8,workload is reasonable and overtime is rare,work_life_balance
+197,Sales,1.6,1.2,3.7,6.4,please share results with the team,career_growth
+198,Engineering,11.8,4.3,4.6,7.8,constant overtime is burning the team out,work_life_balance
+199,Sales,3.0,8.5,4.4,5.5,workload is reasonable and overtime is rare,work_life_balance
+200,Finance,3.2,5.3,3.5,5.9,regular one on ones with my manager are helpful,management
+201,Sales,3.6,7.1,6.2,6.9,I see real opportunities to grow my career here,career_growth
+202,Finance,6.3,4.0,3.5,3.9,teams work in silos and rarely share knowledge,culture
+203,HR,1.0,9.1,1.6,7.3,the survey asks about my experience this quarter,management
+204,Operations,14.9,6.2,5.2,7.4,the survey asks about my experience this quarter,culture
+205,HR,3.2,7.0,2.4,10.0,compensation is transparent and rewards performance,compensation
+206,Sales,6.5,10.0,4.5,5.0,please share results with the team,culture
+207,Operations,1.3,9.2,4.2,4.9,great atmosphere and friendly coworkers,culture
+208,Finance,4.7,5.9,4.3,7.3,there is no path for promotion in this role,career_growth
+209,Sales,13.4,5.4,10.0,7.4,the salary is too low for the workload,compensation
+210,Operations,12.2,5.9,6.1,4.7,workload is reasonable and overtime is rare,work_life_balance
+211,Sales,6.4,7.4,6.5,5.0,my manager micromanages every task,management
+212,Operations,1.9,6.3,2.4,6.9,mentorship program helped me develop new skills,career_growth
+213,Operations,9.4,5.8,4.7,4.1,flexible hours let me manage family commitments,work_life_balance
+214,HR,0.7,9.1,6.4,5.0,leadership communicates goals well and trusts the team,management
+215,Operations,1.9,6.3,4.0,6.0,my manager gives clear direction and useful feedback,management
+216,Sales,3.9,10.0,7.8,7.8,management never listens to team concerns,management
+217,Engineering,0.8,6.7,3.6,4.6,the pay raise this year was fair and competitive,compensation
+218,Engineering,2.7,9.7,5.4,2.1,my manager gives clear direction and useful feedback,management
+219,HR,7.2,7.1,4.8,2.0,training budget and promotion paths are clear,career_growth
+220,Finance,2.3,8.2,6.3,3.3,the team culture is inclusive and supportive,culture
+221,Engineering,7.5,5.2,4.7,3.2,there is no path for promotion in this role,career_growth
+222,HR,17.6,5.0,5.5,5.5,teams work in silos and rarely share knowledge,culture
+223,Operations,5.5,7.3,5.5,3.4,regular one on ones with my manager are helpful,management
+224,Sales,7.4,8.3,4.5,4.4,leadership communicates goals well and trusts the team,management
+225,Operations,9.7,6.6,7.0,4.3,no support for flexible schedules here,work_life_balance
+226,Sales,2.9,4.2,6.5,4.9,teams work in silos and rarely share knowledge,culture
+227,Finance,7.3,4.1,5.8,8.4,my manager micromanages every task,management
+228,HR,2.9,3.9,5.1,7.1,colleagues collaborate and celebrate wins together,culture
+229,HR,5.3,3.3,7.6,5.8,the salary is too low for the workload,compensation
+230,Engineering,8.1,6.7,5.5,4.9,pay does not match the cost of living increase,compensation
+231,HR,2.0,8.5,5.4,4.9,salary and benefits package meet my expectations,compensation
+232,Finance,0.3,6.5,6.2,6.5,the salary is too low for the workload,compensation
+233,Engineering,1.9,2.4,9.4,7.0,great atmosphere and friendly coworkers,culture
+234,Operations,8.9,6.2,3.3,4.0,my manager gives clear direction and useful feedback,management
+235,HR,1.6,6.2,7.5,5.9,leadership communicates goals well and trusts the team,management
+236,Operations,8.6,10.0,2.2,1.7,mentorship program helped me develop new skills,career_growth
+237,Operations,1.9,3.9,6.4,6.2,work follows me home every weekend,work_life_balance
+238,HR,3.5,5.8,9.2,7.3,no support for flexible schedules here,work_life_balance
+239,Sales,4.1,9.6,7.0,5.2,colleagues collaborate and celebrate wins together,culture
+240,Operations,1.6,7.3,6.3,9.4,constant overtime is burning the team out,work_life_balance
+241,Engineering,3.5,7.5,4.9,4.0,the salary is too low for the workload,compensation
+242,HR,0.9,6.7,6.1,6.2,the team culture is inclusive and supportive,culture
+243,Engineering,3.1,7.1,5.5,5.7,benefits have been cut and bonuses delayed,compensation
+244,Operations,3.9,7.9,4.4,5.6,salary and benefits package meet my expectations,compensation
+245,Operations,0.3,5.0,5.4,5.6,mentorship program helped me develop new skills,career_growth
+246,Engineering,1.8,8.1,6.4,6.0,the remote work policy supports a healthy balance,work_life_balance
+247,Operations,5.1,4.0,4.5,7.5,compensation is transparent and rewards performance,compensation
+248,HR,1.5,7.1,4.4,8.6,the team culture is inclusive and supportive,culture
+249,Operations,5.8,6.8,3.3,5.8,the pay raise this year was fair and competitive,compensation
+250,Engineering,6.2,5.4,6.8,7.4,constant overtime is burning the team out,work_life_balance
+251,Engineering,5.1,6.5,7.1,4.4,great atmosphere and friendly coworkers,culture
+252,HR,7.2,5.4,6.5,7.3,management never listens to team concerns,management
+253,Engineering,0.8,4.6,7.9,4.3,the survey asks about my experience this quarter,management
+254,Sales,8.3,5.9,6.2,8.0,my manager gives clear direction and useful feedback,management
+255,Operations,1.7,4.5,6.8,10.0,I completed the annual engagement survey today,culture
+256,Engineering,4.5,7.1,6.6,5.6,requests for training are always rejected,career_growth
+257,Operations,13.1,4.4,5.8,1.4,flexible hours let me manage family commitments,work_life_balance
+258,Engineering,3.1,7.8,4.9,4.7,blame culture makes people afraid to speak up,culture
+259,Engineering,4.2,4.4,10.0,8.3,there is no path for promotion in this role,career_growth
+260,HR,1.7,5.5,5.1,6.9,the team culture is inclusive and supportive,culture
+261,Operations,13.0,5.4,4.7,6.3,compensation is transparent and rewards performance,compensation
+262,Engineering,1.8,8.9,6.9,7.8,regular one on ones with my manager are helpful,management
+263,Sales,6.6,7.1,6.5,6.8,compensation is transparent and rewards performance,compensation
+264,Finance,9.6,6.1,3.2,8.2,flexible hours let me manage family commitments,work_life_balance
+265,Finance,7.0,7.4,8.2,7.6,constant overtime is burning the team out,work_life_balance
+266,HR,5.4,2.7,5.8,8.8,the salary is too low for the workload,compensation
+267,HR,4.4,6.4,3.8,6.5,salary and benefits package meet my expectations,compensation
+268,Sales,1.3,10.0,8.4,7.6,I completed the annual engagement survey today,work_life_balance
+269,Operations,12.6,6.7,7.3,5.2,teams work in silos and rarely share knowledge,culture
+270,HR,5.0,6.6,3.5,4.6,career growth discussions never happen,career_growth
+271,Sales,4.2,7.5,9.6,9.2,the survey asks about my experience this quarter,compensation
+272,Engineering,1.5,8.1,7.3,6.2,workload is reasonable and overtime is rare,work_life_balance
+273,Engineering,4.4,2.9,6.0,7.4,salary and benefits package meet my expectations,compensation
+274,Finance,4.0,3.5,9.2,6.0,unclear expectations from leadership cause rework,management
+275,HR,13.1,6.9,6.3,4.6,constant overtime is burning the team out,work_life_balance
+276,HR,4.2,5.2,5.9,5.8,the survey asks about my experience this quarter,compensation
+277,HR,4.3,8.9,4.7,8.7,leadership communicates goals well and trusts the team,management
+278,Operations,1.6,5.9,7.2,6.9,the team culture is inclusive and supportive,culture
+279,Engineering,2.2,3.0,7.0,2.4,pay does not match the cost of living increase,compensation
+280,Engineering,6.0,4.2,6.0,5.4,salary and benefits package meet my expectations,compensation
+281,Sales,0.7,1.6,4.4,9.4,teams work in silos and rarely share knowledge,culture
+282,HR,8.3,6.1,6.3,5.4,training budget and promotion paths are clear,career_growth
+283,Operations,8.4,6.2,5.9,2.2,unclear expectations from leadership cause rework,management
+284,HR,2.0,5.7,3.3,9.6,leadership communicates goals well and trusts the team,management
+285,HR,5.4,8.4,3.1,7.2,flexible hours let me manage family commitments,work_life_balance
+286,Finance,9.9,8.7,7.1,5.7,the pay raise this year was fair and competitive,compensation
+287,Engineering,3.8,6.2,1.0,5.1,requests for training are always rejected,career_growth
+288,HR,3.2,2.7,6.4,8.0,career growth discussions never happen,career_growth
+289,HR,3.5,7.6,5.0,4.7,I completed the annual engagement survey today,management
+290,HR,5.0,7.5,8.6,8.1,compensation is transparent and rewards performance,compensation
+291,Finance,2.5,7.1,5.0,6.9,requests for training are always rejected,career_growth
+292,Sales,3.0,8.3,7.3,6.3,workload is reasonable and overtime is rare,work_life_balance
+293,Finance,5.1,4.4,5.2,6.1,I completed the annual engagement survey today,culture
+294,Sales,2.8,10.0,6.2,5.5,the salary is too low for the workload,compensation
+295,HR,1.4,4.8,7.5,7.9,regular one on ones with my manager are helpful,management
+296,HR,0.6,7.8,5.1,4.1,training budget and promotion paths are clear,career_growth
+297,Finance,4.3,3.5,8.0,2.6,office politics hurt morale,culture
+298,HR,9.4,4.8,4.0,7.0,training budget and promotion paths are clear,career_growth
+299,Sales,5.6,9.2,6.6,7.1,no support for flexible schedules here,work_life_balance
+300,Engineering,1.5,6.0,7.8,6.8,I completed the annual engagement survey today,work_life_balance
+301,Sales,2.2,8.0,7.3,6.6,workload is reasonable and overtime is rare,work_life_balance
+302,Finance,3.2,6.9,9.8,5.2,I completed the annual engagement survey today,culture
+303,Engineering,13.4,6.3,4.5,7.4,my manager gives clear direction and useful feedback,management
+304,Finance,13.8,9.0,3.2,5.7,training budget and promotion paths are clear,career_growth
+305,HR,12.8,6.1,4.0,4.8,colleagues collaborate and celebrate wins together,culture
+306,Engineering,4.6,3.3,7.3,5.2,constant overtime is burning the team out,work_life_balance
+307,Sales,20.0,5.1,7.0,9.8,training budget and promotion paths are clear,career_growth
+308,HR,2.3,7.5,6.2,2.3,pay does not match the cost of living increase,compensation
+309,Sales,3.1,7.2,3.8,6.8,compensation is transparent and rewards performance,compensation
+310,Engineering,7.8,3.7,7.5,2.4,the remote work policy supports a healthy balance,work_life_balance
+311,Operations,5.1,5.2,3.6,5.6,benefits have been cut and bonuses delayed,compensation
+312,Operations,5.4,5.5,8.3,4.9,unclear expectations from leadership cause rework,management
+313,Engineering,1.7,5.8,10.0,1.6,great atmosphere and friendly coworkers,culture
+314,Sales,4.0,4.0,6.7,6.6,I completed the annual engagement survey today,work_life_balance
+315,Sales,2.3,5.4,7.2,5.0,salary and benefits package meet my expectations,compensation
+316,Operations,1.2,5.2,5.0,1.6,constant overtime is burning the team out,work_life_balance
+317,Operations,2.5,7.9,2.4,7.5,salary and benefits package meet my expectations,compensation
+318,Operations,5.1,8.0,4.8,8.7,constant overtime is burning the team out,work_life_balance
+319,Finance,7.0,6.2,3.8,8.8,no support for flexible schedules here,work_life_balance
+320,Operations,0.6,5.8,3.1,6.5,there is no path for promotion in this role,career_growth
+321,Sales,4.1,6.8,9.4,5.9,the team culture is inclusive and supportive,culture
+322,Engineering,3.8,5.0,6.5,8.5,salary and benefits package meet my expectations,compensation
+323,Operations,4.9,4.4,6.8,9.2,career growth discussions never happen,career_growth
+324,Finance,1.5,4.8,5.4,8.1,great atmosphere and friendly coworkers,culture
+325,Finance,1.5,5.4,5.7,3.9,teams work in silos and rarely share knowledge,culture
+326,Sales,9.6,4.4,7.9,6.2,the pay raise this year was fair and competitive,compensation
+327,Sales,2.0,6.8,5.9,6.7,mentorship program helped me develop new skills,career_growth
+328,Engineering,3.0,7.8,7.1,2.2,pay does not match the cost of living increase,compensation
+329,Engineering,3.2,3.6,5.6,6.7,pay does not match the cost of living increase,compensation
+330,HR,2.3,6.5,5.3,10.0,work follows me home every weekend,work_life_balance
+331,HR,5.9,6.1,3.2,7.1,my manager gives clear direction and useful feedback,management
+332,Sales,5.6,7.1,2.0,8.7,compensation is transparent and rewards performance,compensation
+333,Sales,3.7,6.5,5.5,6.2,management never listens to team concerns,management
+334,Finance,2.5,3.9,6.1,5.7,career growth discussions never happen,career_growth
+335,HR,3.5,4.2,3.4,6.6,the remote work policy supports a healthy balance,work_life_balance
+336,Finance,4.4,6.6,5.9,4.2,the remote work policy supports a healthy balance,work_life_balance
+337,Finance,2.2,8.4,6.1,3.9,I see real opportunities to grow my career here,career_growth
+338,Sales,6.2,2.5,1.7,8.3,workload is reasonable and overtime is rare,work_life_balance
+339,Sales,8.2,7.1,4.2,8.5,leadership communicates goals well and trusts the team,management
+340,Finance,10.7,8.6,6.8,3.8,regular one on ones with my manager are helpful,management
+341,Operations,10.3,6.2,6.8,7.7,the team culture is inclusive and supportive,culture
+342,Sales,3.2,7.5,3.7,5.6,compensation is transparent and rewards performance,compensation
+343,Operations,4.6,5.2,6.3,6.5,my manager micromanages every task,management
+344,HR,3.7,6.3,8.0,6.7,I see real opportunities to grow my career here,career_growth
+345,Finance,3.6,3.6,7.6,7.8,colleagues collaborate and celebrate wins together,culture
+346,Sales,3.5,2.3,5.8,6.0,no support for flexible schedules here,work_life_balance
+347,Finance,4.2,8.2,5.1,8.6,workload is reasonable and overtime is rare,work_life_balance
+348,Finance,9.2,4.7,4.7,6.4,career growth discussions never happen,career_growth
+349,Engineering,5.2,5.7,6.9,7.0,work follows me home every weekend,work_life_balance
+350,Engineering,1.4,4.0,6.4,4.1,teams work in silos and rarely share knowledge,culture
+351,HR,8.0,4.0,7.3,10.0,I see real opportunities to grow my career here,career_growth
+352,Engineering,4.9,6.2,6.3,6.7,salary and benefits package meet my expectations,compensation
+353,Sales,6.0,5.2,7.6,7.2,workload is reasonable and overtime is rare,work_life_balance
+354,HR,5.2,7.2,6.2,2.6,flexible hours let me manage family commitments,work_life_balance
+355,Finance,5.3,7.3,7.6,4.2,mentorship program helped me develop new skills,career_growth
+356,Finance,5.5,7.1,7.7,8.3,regular one on ones with my manager are helpful,management
+357,Engineering,0.7,6.9,4.4,6.4,great atmosphere and friendly coworkers,culture
+358,Finance,5.9,9.3,2.4,2.0,colleagues collaborate and celebrate wins together,culture
+359,Engineering,2.3,4.6,9.1,7.9,office politics hurt morale,culture
+360,Operations,2.8,6.4,6.5,4.7,career growth discussions never happen,career_growth
+361,Finance,4.2,8.5,2.6,8.6,the remote work policy supports a healthy balance,work_life_balance
+362,Finance,11.9,8.8,4.6,5.6,teams work in silos and rarely share knowledge,culture
+363,Sales,1.7,3.9,7.5,6.2,colleagues collaborate and celebrate wins together,culture
+364,Finance,4.1,5.9,5.4,8.2,teams work in silos and rarely share knowledge,culture
+365,Engineering,3.4,8.9,5.0,4.0,colleagues collaborate and celebrate wins together,culture
+366,HR,7.9,7.4,8.8,3.8,the pay raise this year was fair and competitive,compensation
+367,HR,3.3,6.9,3.9,5.4,my manager micromanages every task,management
+368,Sales,4.9,6.1,4.4,7.5,requests for training are always rejected,career_growth
+369,Engineering,1.7,5.8,6.4,3.1,my manager gives clear direction and useful feedback,management
+370,Operations,8.8,7.0,6.8,2.5,I see real opportunities to grow my career here,career_growth
+371,Sales,1.1,6.0,7.0,7.4,constant overtime is burning the team out,work_life_balance
+372,Operations,5.8,6.4,7.8,4.6,please share results with the team,career_growth
+373,HR,5.0,6.6,6.4,5.0,office politics hurt morale,culture
+374,Sales,5.5,5.3,7.0,2.1,regular one on ones with my manager are helpful,management
+375,Finance,1.1,7.5,5.5,4.4,please share results with the team,career_growth
+376,Engineering,3.3,10.0,6.1,5.8,salary and benefits package meet my expectations,compensation
+377,Operations,7.7,3.3,6.2,7.7,pay does not match the cost of living increase,compensation
+378,Operations,13.1,7.1,6.4,4.3,workload is reasonable and overtime is rare,work_life_balance
+379,Sales,3.8,5.1,7.5,9.1,the remote work policy supports a healthy balance,work_life_balance
+380,Sales,7.2,7.5,7.1,4.4,I see real opportunities to grow my career here,career_growth
+381,Engineering,4.6,6.6,6.1,4.4,colleagues collaborate and celebrate wins together,culture
+382,Finance,4.0,7.9,4.4,8.9,regular one on ones with my manager are helpful,management
+383,Finance,3.0,8.6,6.1,6.2,salary and benefits package meet my expectations,compensation
+384,Sales,4.2,6.8,5.9,4.7,my manager gives clear direction and useful feedback,management
+385,Engineering,6.7,8.5,6.4,5.5,the survey asks about my experience this quarter,culture
+386,Engineering,7.1,2.3,10.0,8.5,teams work in silos and rarely share knowledge,culture
+387,Engineering,1.3,9.4,5.0,8.7,the remote work policy supports a healthy balance,work_life_balance
+388,Finance,2.8,7.2,6.8,4.2,flexible hours let me manage family commitments,work_life_balance
+389,Finance,1.6,8.4,8.1,5.7,the pay raise this year was fair and competitive,compensation
+390,Engineering,4.3,4.3,6.2,6.0,career growth discussions never happen,career_growth
+391,Operations,3.2,5.0,10.0,3.8,workload is reasonable and overtime is rare,work_life_balance
+392,Engineering,5.4,6.8,5.2,5.7,I completed the annual engagement survey today,culture
+393,Sales,5.6,6.5,6.6,5.8,salary and benefits package meet my expectations,compensation
+394,HR,0.3,7.0,4.4,8.1,my manager gives clear direction and useful feedback,management
+395,Operations,4.2,8.5,5.3,8.2,the pay raise this year was fair and competitive,compensation
+396,Finance,9.3,3.3,6.5,5.1,constant overtime is burning the team out,work_life_balance
+397,Engineering,2.8,8.3,7.7,5.4,workload is reasonable and overtime is rare,work_life_balance
+398,Engineering,2.7,6.5,6.6,7.1,mentorship program helped me develop new skills,career_growth
+399,Sales,8.2,6.1,8.5,4.6,unclear expectations from leadership cause rework,management
+400,Sales,7.3,3.9,5.8,7.0,the survey asks about my experience this quarter,management
+401,Finance,1.8,7.4,5.3,5.6,colleagues collaborate and celebrate wins together,culture
+402,Operations,6.9,2.2,10.0,3.9,there is no path for promotion in this role,career_growth
+403,Sales,2.2,7.7,6.8,3.9,management never listens to team concerns,management
+404,Finance,2.7,3.8,4.6,8.7,my manager gives clear direction and useful feedback,management
+405,HR,1.8,6.6,4.6,5.5,my manager gives clear direction and useful feedback,management
+406,HR,1.3,6.3,4.1,9.1,compensation is transparent and rewards performance,compensation
+407,HR,4.5,8.6,7.9,4.8,I completed the annual engagement survey today,work_life_balance
+408,Engineering,1.1,6.2,5.3,6.4,management never listens to team concerns,management
+409,Finance,4.7,5.3,6.3,10.0,regular one on ones with my manager are helpful,management
+410,Engineering,4.6,5.6,5.9,3.7,the survey asks about my experience this quarter,management
+411,Engineering,3.7,8.8,7.5,2.0,compensation is transparent and rewards performance,compensation
+412,Sales,2.9,7.5,4.3,8.4,leadership communicates goals well and trusts the team,management
+413,Sales,2.4,5.8,3.8,4.1,regular one on ones with my manager are helpful,management
+414,Engineering,1.6,6.1,6.4,5.8,the salary is too low for the workload,compensation
+415,Engineering,10.8,3.7,7.2,4.6,I completed the annual engagement survey today,career_growth
+416,Operations,3.6,7.2,6.7,6.3,I see real opportunities to grow my career here,career_growth
+417,Finance,3.5,3.3,4.4,3.9,my manager gives clear direction and useful feedback,management
+418,Engineering,1.9,7.9,7.4,5.4,the pay raise this year was fair and competitive,compensation
+419,Sales,10.0,6.7,4.5,6.7,no support for flexible schedules here,work_life_balance
+420,HR,2.5,10.0,5.0,3.8,training budget and promotion paths are clear,career_growth
+421,Finance,5.0,4.5,4.1,4.4,there is no path for promotion in this role,career_growth
+422,Operations,5.7,6.3,8.6,5.1,career growth discussions never happen,career_growth
+423,Operations,4.5,9.7,7.3,2.9,please share results with the team,management
+424,HR,1.1,8.6,7.2,5.0,I completed the annual engagement survey today,work_life_balance
+425,HR,6.7,5.2,8.5,6.0,blame culture makes people afraid to speak up,culture
+426,Engineering,2.5,6.9,10.0,5.0,constant overtime is burning the team out,work_life_balance
+427,Finance,7.3,6.5,2.6,5.3,blame culture makes people afraid to speak up,culture
+428,Finance,4.0,7.0,4.5,5.8,the team culture is inclusive and supportive,culture
+429,Engineering,6.0,5.2,4.8,4.5,constant overtime is burning the team out,work_life_balance
+430,Operations,9.6,6.3,4.3,7.2,great atmosphere and friendly coworkers,culture
+431,Engineering,6.5,3.6,3.8,8.7,my manager micromanages every task,management
+432,Operations,6.1,6.7,5.4,4.9,unclear expectations from leadership cause rework,management
+433,Finance,6.9,7.3,3.6,6.8,my manager gives clear direction and useful feedback,management
+434,Engineering,2.1,6.1,6.7,5.3,benefits have been cut and bonuses delayed,compensation
+435,HR,7.5,3.6,6.1,6.5,teams work in silos and rarely share knowledge,culture
+436,Engineering,3.3,8.3,7.0,8.9,salary and benefits package meet my expectations,compensation
+437,HR,3.4,7.2,7.0,6.8,career growth discussions never happen,career_growth
+438,Finance,4.4,5.2,7.2,2.3,teams work in silos and rarely share knowledge,culture
+439,Engineering,3.1,6.0,5.3,6.7,colleagues collaborate and celebrate wins together,culture
+440,Sales,1.7,3.8,10.0,8.3,the salary is too low for the workload,compensation
+441,Finance,4.2,4.7,6.5,5.4,requests for training are always rejected,career_growth
+442,Sales,3.5,5.5,2.3,7.8,the survey asks about my experience this quarter,career_growth
+443,Engineering,3.4,8.7,4.0,4.4,regular one on ones with my manager are helpful,management
+444,HR,3.9,5.3,2.5,2.8,unclear expectations from leadership cause rework,management
+445,HR,0.4,7.7,6.0,6.1,unclear expectations from leadership cause rework,management
+446,Operations,3.4,5.5,5.8,2.3,I see real opportunities to grow my career here,career_growth
+447,Sales,10.4,6.9,5.1,5.3,teams work in silos and rarely share knowledge,culture
+448,Finance,9.9,6.2,10.0,8.4,constant overtime is burning the team out,work_life_balance
+449,HR,4.3,8.1,7.1,2.0,salary and benefits package meet my expectations,compensation
+450,Sales,4.2,5.5,7.5,3.2,the pay raise this year was fair and competitive,compensation
+451,Finance,0.3,3.7,4.1,3.7,office politics hurt morale,culture
+452,Finance,2.6,4.0,4.0,5.7,the salary is too low for the workload,compensation
+453,HR,6.8,5.5,6.1,5.1,I completed the annual engagement survey today,management
+454,Engineering,3.0,4.3,6.3,8.6,great atmosphere and friendly coworkers,culture
+455,HR,8.5,7.2,2.3,7.7,compensation is transparent and rewards performance,compensation
+456,HR,8.1,5.7,5.6,6.8,workload is reasonable and overtime is rare,work_life_balance
+457,Engineering,2.6,10.0,6.0,6.1,great atmosphere and friendly coworkers,culture
+458,Operations,4.5,3.4,5.6,6.6,workload is reasonable and overtime is rare,work_life_balance
+459,Finance,11.0,6.9,4.4,4.1,the remote work policy supports a healthy balance,work_life_balance
+460,Engineering,1.1,4.5,4.9,7.5,the remote work policy supports a healthy balance,work_life_balance
+461,Operations,3.1,5.6,5.6,3.6,salary and benefits package meet my expectations,compensation
+462,Engineering,0.9,6.8,6.2,7.5,mentorship program helped me develop new skills,career_growth
+463,Operations,2.0,2.3,7.2,8.2,training budget and promotion paths are clear,career_growth
+464,HR,13.1,6.9,8.2,6.2,compensation is transparent and rewards performance,compensation
+465,Engineering,3.1,9.9,5.4,5.4,regular one on ones with my manager are helpful,management
+466,Finance,0.5,5.7,5.1,6.6,requests for training are always rejected,career_growth
+467,Engineering,1.7,7.0,6.9,1.0,career growth discussions never happen,career_growth
+468,HR,0.8,8.3,7.2,6.4,workload is reasonable and overtime is rare,work_life_balance
+469,Engineering,4.7,6.2,5.1,5.6,requests for training are always rejected,career_growth
+470,Finance,5.7,5.5,7.6,5.7,flexible hours let me manage family commitments,work_life_balance
+471,Operations,7.6,2.4,8.0,7.2,teams work in silos and rarely share knowledge,culture
+472,Finance,6.6,7.7,8.6,5.7,pay does not match the cost of living increase,compensation
+473,HR,1.1,6.3,9.6,3.5,office politics hurt morale,culture
+474,HR,5.5,4.7,4.3,5.5,constant overtime is burning the team out,work_life_balance
+475,Operations,3.7,6.7,6.0,5.9,I see real opportunities to grow my career here,career_growth
+476,Operations,8.3,5.4,6.0,6.0,I completed the annual engagement survey today,compensation
+477,Finance,7.1,5.5,5.8,6.1,unclear expectations from leadership cause rework,management
+478,Engineering,14.2,7.6,4.7,7.9,my manager gives clear direction and useful feedback,management
+479,Operations,1.8,4.1,3.0,3.6,my manager gives clear direction and useful feedback,management
+480,Engineering,1.6,8.4,6.2,6.2,constant overtime is burning the team out,work_life_balance
+481,Sales,2.8,4.0,4.5,8.4,management never listens to team concerns,management
+482,Finance,3.8,5.3,6.2,2.3,I completed the annual engagement survey today,work_life_balance
+483,Sales,2.3,10.0,4.4,6.2,leadership communicates goals well and trusts the team,management
+484,Operations,1.9,8.5,3.8,4.6,leadership communicates goals well and trusts the team,management
+485,HR,5.2,6.7,6.5,5.1,regular one on ones with my manager are helpful,management
+486,Sales,2.8,4.8,6.3,4.0,mentorship program helped me develop new skills,career_growth
+487,Sales,2.3,5.5,7.2,5.5,leadership communicates goals well and trusts the team,management
+488,HR,1.1,6.6,10.0,9.5,training budget and promotion paths are clear,career_growth
+489,Operations,0.3,6.6,6.6,3.3,pay does not match the cost of living increase,compensation
+490,Operations,10.1,6.3,7.0,3.5,workload is reasonable and overtime is rare,work_life_balance
+491,Finance,9.9,6.4,3.8,3.2,flexible hours let me manage family commitments,work_life_balance
+492,Finance,7.2,6.1,3.4,9.3,mentorship program helped me develop new skills,career_growth
+493,Operations,6.1,3.9,9.2,4.9,constant overtime is burning the team out,work_life_balance
+494,Operations,2.6,5.6,4.2,5.7,career growth discussions never happen,career_growth
+495,Sales,6.3,8.1,3.9,5.0,there is no path for promotion in this role,career_growth
+496,HR,1.5,4.0,5.9,3.9,the survey asks about my experience this quarter,culture
+497,Engineering,4.5,6.2,5.8,5.3,salary and benefits package meet my expectations,compensation
+498,Sales,2.1,5.0,4.2,10.0,I completed the annual engagement survey today,work_life_balance
+499,Finance,6.3,6.7,5.4,8.6,the salary is too low for the workload,compensation
+500,HR,11.5,5.8,8.5,4.1,management never listens to team concerns,management
