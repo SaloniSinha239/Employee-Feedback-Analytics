@@ -68,7 +68,7 @@ with st.sidebar:
     n_topics = st.slider("LDA topics", 2, 8, 5)
     max_k = st.slider("Max K-Means clusters", 3, 8, 6)
     st.divider()
-    st.markdown("[Source code](https://github.com/) · Built with Streamlit + scikit-learn")
+    st.markdown("[Source code](https://github.com/SaloniSinha239/Employee-Feedback-Analytics) · Built with Streamlit + scikit-learn")
 
 try:
     if uploaded is None and source == "Upload CSV":
