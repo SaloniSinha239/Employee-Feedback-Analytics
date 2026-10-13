@@ -98,16 +98,16 @@ with tab1:
         sentiment_summary.set_index("department")[["pct_positive", "pct_negative"]],
         color=["#2ecc71", "#e74c3c"],
     )
-    st.dataframe(sentiment_summary, use_container_width=True, hide_index=True)
+    st.dataframe(sentiment_summary, width="stretch", hide_index=True)
 
 with tab2:
     st.caption("Top words per topic, comment volume, and average sentiment per theme")
-    st.bar_chart(topic_summary.set_index("topic_id")["n_comments"])
-    st.dataframe(topic_summary[["topic_id", "top_words", "n_comments", "mean_sentiment"]],
-                 use_container_width=True, hide_index=True)
+    st.bar_chart(topic_summary.set_index("dominant_topic")["n_comments"])
+    st.dataframe(topic_summary[["dominant_topic", "top_words", "n_comments", "mean_sentiment"]],
+                 width="stretch", hide_index=True)
     st.dataframe(
         df[df["sentiment_label"] == "negative"][["department", "topic_label", "comment"]].head(10),
-        use_container_width=True, hide_index=True,
+        width="stretch", hide_index=True,
     )
 
 with tab3:
@@ -115,7 +115,7 @@ with tab3:
     c1.metric("Best k", kmeans_meta["best_k"])
     c1.metric("Silhouette", kmeans_meta["silhouette"])
     c2.caption("K-Means over engagement, workload, salary satisfaction, tenure and sentiment")
-    st.dataframe(segment_profile, use_container_width=True, hide_index=True)
+    st.dataframe(segment_profile, width="stretch", hide_index=True)
     st.bar_chart(segment_profile.set_index("segment")[["engagement", "salary_sat", "sentiment"]])
 
 with tab4:
